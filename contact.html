@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Meredith Woodward">
+        <meta name="description" content="This is contact page for my Final Project for GIT 215. I am designing a website for a ski-resort in Switzerland.">
+        <title>Schweizer Berg Ski Resort and Spa | Contact</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://use.typekit.net/lew7zks.css">
+        <link rel="stylesheet" href="obfuscatedstyles.css">
+        <!--<link rel="stylesheet" href="cssobfuscated.css">-->
+    </head>
+    <body id="top">
+        <header>
+            <h1><!--<a href="index.html">-->Schweizer Berg Ski Resort and Spa<!--</a>--></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="accommodations">Accommodations</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <img src="swiss-valley.jpg" alt="A forest of green pine trees covering a snowy mountain in the background. There is a river flowing through the forest.">
+        </header>
+        <main>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p> Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a <span class="required">*</span></p>
+                <img src="swiss-peak.jpg" alt="Dark green trees on a hillside in front of a giant mountain with snow.">
+                <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST">
+                    <label for="my_name">Full Name: <span class="required">*</span></label>
+                    <input type="text" name="my_name" id="my_name" required>
+                    <label for="my_email">Email Address:<span class="required">*</span></label>
+                    <input type="email" name="my_email" id="my_email" required>
+                    <label for="my_phone">Phone Number:<span class="required">*</span></label>
+                    <input type="tel" name="my_phone" id="my_phone" required>
+                    <fieldset>
+                        <!--<label for="contact_method">--><legend>Contact Method:</legend><span class="required">*</span><!--<span class="required">*</span></label>-->
+                        <!--<input id="contact_method" required>-->
+                        <!--<select id="contact_method" name="contact_method" required>-->
+                        <div>
+                            <input id="emaill" type="radio" name="contact_method" value="emaill">
+                            <label for="emaill">Email</label>
+                        </div>
+                        <div>
+                            <input id="phonee" type="radio" name="contact_method" value="phonee">
+                            <label for="phonee">Phone</label>
+                        </div>
+                    </fieldset>
+                            <!--<option value="">Choose Option</option>
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>-->
+                        <!--</select>-->
+                    <label for="comments">Comments<span class="required">*</span></label>
+                    <textarea name="comments" id="comments" required></textarea>
+                    <input type="submit" name="my_submit" id="my_submit" value="Submit the Form">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 - Schweizer Berg Ski Resort and Spa</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
